@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ott-player/static/css/main.f62f868d.css",
+    "main.js": "/ott-player/static/js/main.0dbb482d.js",
+    "static/media/poster2.jpg": "/ott-player/static/media/poster2.bf23bfae49d854fec0f2.jpg",
+    "static/media/poster1.jpg": "/ott-player/static/media/poster1.d966e333249e4f74e821.jpg",
+    "static/media/poster3.jpg": "/ott-player/static/media/poster3.7ee7b802517e3b685aaf.jpg",
+    "static/media/poster5.jpg": "/ott-player/static/media/poster5.d0a9cf21d7e7d56979e2.jpg",
+    "static/media/poster8.jpg": "/ott-player/static/media/poster8.61013e431fa5ca643217.jpg",
+    "static/media/poster6.jpg": "/ott-player/static/media/poster6.57e30e483bb184bc63b9.jpg",
+    "static/media/poster4.jpg": "/ott-player/static/media/poster4.a2f1de9b0f0c656226d7.jpg",
+    "static/media/poster7.jpg": "/ott-player/static/media/poster7.8f23c2d5749c68467aaf.jpg",
+    "index.html": "/ott-player/index.html",
+    "main.f62f868d.css.map": "/ott-player/static/css/main.f62f868d.css.map",
+    "main.0dbb482d.js.map": "/ott-player/static/js/main.0dbb482d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f62f868d.css",
+    "static/js/main.0dbb482d.js"
+  ]
+}
