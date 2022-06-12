@@ -10,6 +10,7 @@ const Genre = () => {
 
   useEffect(() => {
     handleFetchMovies("1");
+    // eslint-disable-next-line
   }, []);
 
   const handleFetchMovies = (page) => {

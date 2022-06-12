@@ -35,12 +35,13 @@ const Header = () => {
         <input
           type="text"
           className={clsx(
-            "bg-transparent border-b focus-visible:outline-0 text-white",
-            showSearch ? "w-4/5" : " w-0"
+            "bg-transparent border-b focus-visible:outline-0 text-white w-4/5",
+            showSearch ? "block" : " hidden"
           )}
           placeholder="Search for titles"
           value={searchString}
           onChange={handleSearch}
+          autoFocus
         />
         <img
           className="h-full"
