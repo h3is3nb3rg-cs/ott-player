@@ -5,6 +5,7 @@ export function fetchMovies(pageNumber) {
   return function (dispatch) {
     getMovies(pageNumber)
       .then((data) => {
+        
         dispatch(setMovies({ page: pageNumber, data: data }));
       })
       .catch((err) => {

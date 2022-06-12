@@ -254,10 +254,12 @@ export const getMovies = (pageNumber) => {
   let paginatedData = ALL_MOVIES.filter((item) => {
     return item["page-num-requested"] === pageNumber;
   });
-  console.log(paginatedData[0]["content-items"].content,"here")
   return new Promise((resolve, reject) => {
     if (paginatedData.length) {
-      resolve(Object.values(paginatedData[0]["content-items"].content));
+      resolve({
+        total: paginatedData[0]["total-content-items"],
+        list: Object.values(paginatedData[0]["content-items"].content),
+      });
     } else resolve([]);
   });
 };
@@ -272,6 +274,9 @@ export const findMovies = (searchString) => {
     });
   });
   return new Promise((resolve, reject) => {
-    resolve(searchResults)
-  })
+    resolve({
+      total: searchResults.length,
+      list: searchResults,
+    });
+  });
 };
