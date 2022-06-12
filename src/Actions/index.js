@@ -18,7 +18,6 @@ export function searchMovies(searchString) {
   return function (dispatch) {
     findMovies(searchString)
       .then((data) => {
-        console.log(data, ">searchdata");
         dispatch(setSearchResults(data));
       })
       .catch((err) => {

@@ -20,10 +20,9 @@ const Genre = () => {
     var bottom =
       e.target.scrollHeight - e.target.clientHeight - e.target.scrollTop < 300;
     if (bottom && movies.length < parseInt(total)) {
-      let pg = pageNumber + 1;
-      setPageNumber(pg);
-      handleFetchMovies(pg.toString());
-      console.log(pg);
+      let pageNo = pageNumber + 1;
+      setPageNumber(pageNo);
+      handleFetchMovies(pageNo.toString());
     }
   };
 
